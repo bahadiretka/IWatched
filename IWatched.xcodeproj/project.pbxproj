@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		795FBAB928AAB0A800DD2221 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795FBAB828AAB0A700DD2221 /* ItemRowView.swift */; };
+		795FBABB28AC4DE800DD2221 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795FBABA28AC4DE800DD2221 /* Launch Screen.storyboard */; };
 		79C253DA28A29E86003C7F0F /* IWatchedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253D928A29E86003C7F0F /* IWatchedApp.swift */; };
 		79C253DC28A29E86003C7F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253DB28A29E86003C7F0F /* ContentView.swift */; };
 		79C253DE28A29E88003C7F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C253DD28A29E88003C7F0F /* Assets.xcassets */; };
 		79C253E128A29E88003C7F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C253E028A29E88003C7F0F /* Preview Assets.xcassets */; };
 		79C253E328A29E88003C7F0F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253E228A29E88003C7F0F /* Persistence.swift */; };
 		79C253E628A29E88003C7F0F /* IWatched.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79C253E428A29E88003C7F0F /* IWatched.xcdatamodeld */; };
+		79C253EE28A30789003C7F0F /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253ED28A30789003C7F0F /* AddItemView.swift */; };
+		79C253F028A30CD9003C7F0F /* DetailedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253EF28A30CD9003C7F0F /* DetailedItemView.swift */; };
+		79C253F328A3FE1F003C7F0F /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253F228A3FE1F003C7F0F /* ImagePickerView.swift */; };
+		79C253F528A3FEC0003C7F0F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253F428A3FEC0003C7F0F /* Coordinator.swift */; };
+		79C253F828A40C12003C7F0F /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253F728A40C12003C7F0F /* Popup.swift */; };
+		79C253FA28A696F7003C7F0F /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C253F928A696F7003C7F0F /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		795FBAB828AAB0A700DD2221 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		795FBABA28AC4DE800DD2221 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		79C253D628A29E86003C7F0F /* IWatched.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWatched.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C253D928A29E86003C7F0F /* IWatchedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWatchedApp.swift; sourceTree = "<group>"; };
 		79C253DB28A29E86003C7F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +33,13 @@
 		79C253E028A29E88003C7F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79C253E228A29E88003C7F0F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		79C253E528A29E88003C7F0F /* IWatched.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IWatched.xcdatamodel; sourceTree = "<group>"; };
+		79C253ED28A30789003C7F0F /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		79C253EF28A30CD9003C7F0F /* DetailedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedItemView.swift; sourceTree = "<group>"; };
+		79C253F128A3FD37003C7F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79C253F228A3FE1F003C7F0F /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		79C253F428A3FEC0003C7F0F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		79C253F728A40C12003C7F0F /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		79C253F928A696F7003C7F0F /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +72,13 @@
 		79C253D828A29E86003C7F0F /* IWatched */ = {
 			isa = PBXGroup;
 			children = (
+				79C253F128A3FD37003C7F0F /* Info.plist */,
 				79C253D928A29E86003C7F0F /* IWatchedApp.swift */,
-				79C253DB28A29E86003C7F0F /* ContentView.swift */,
+				79C253F628A40BEA003C7F0F /* Extension */,
+				79C253EC28A30778003C7F0F /* View */,
 				79C253DD28A29E88003C7F0F /* Assets.xcassets */,
-				79C253E228A29E88003C7F0F /* Persistence.swift */,
 				79C253E428A29E88003C7F0F /* IWatched.xcdatamodeld */,
+				795FBABA28AC4DE800DD2221 /* Launch Screen.storyboard */,
 				79C253DF28A29E88003C7F0F /* Preview Content */,
 			);
 			path = IWatched;
@@ -71,6 +90,29 @@
 				79C253E028A29E88003C7F0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79C253EC28A30778003C7F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79C253DB28A29E86003C7F0F /* ContentView.swift */,
+				79C253ED28A30789003C7F0F /* AddItemView.swift */,
+				79C253EF28A30CD9003C7F0F /* DetailedItemView.swift */,
+				79C253F228A3FE1F003C7F0F /* ImagePickerView.swift */,
+				79C253F928A696F7003C7F0F /* EmojiView.swift */,
+				795FBAB828AAB0A700DD2221 /* ItemRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79C253F628A40BEA003C7F0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				79C253E228A29E88003C7F0F /* Persistence.swift */,
+				79C253F428A3FEC0003C7F0F /* Coordinator.swift */,
+				79C253F728A40C12003C7F0F /* Popup.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795FBABB28AC4DE800DD2221 /* Launch Screen.storyboard in Resources */,
 				79C253E128A29E88003C7F0F /* Preview Assets.xcassets in Resources */,
 				79C253DE28A29E88003C7F0F /* Assets.xcassets in Resources */,
 			);
@@ -143,10 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C253F828A40C12003C7F0F /* Popup.swift in Sources */,
+				79C253F528A3FEC0003C7F0F /* Coordinator.swift in Sources */,
 				79C253E328A29E88003C7F0F /* Persistence.swift in Sources */,
 				79C253DC28A29E86003C7F0F /* ContentView.swift in Sources */,
 				79C253E628A29E88003C7F0F /* IWatched.xcdatamodeld in Sources */,
 				79C253DA28A29E86003C7F0F /* IWatchedApp.swift in Sources */,
+				79C253F328A3FE1F003C7F0F /* ImagePickerView.swift in Sources */,
+				79C253EE28A30789003C7F0F /* AddItemView.swift in Sources */,
+				795FBAB928AAB0A800DD2221 /* ItemRowView.swift in Sources */,
+				79C253F028A30CD9003C7F0F /* DetailedItemView.swift in Sources */,
+				79C253FA28A696F7003C7F0F /* EmojiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +328,13 @@
 				DEVELOPMENT_TEAM = 9FQT58QHTS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IWatched/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +361,13 @@
 				DEVELOPMENT_TEAM = 9FQT58QHTS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IWatched/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
