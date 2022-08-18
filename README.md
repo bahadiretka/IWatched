@@ -15,4 +15,4 @@ simple movie or series note application using CoreData
 
 ## detailed item view
 
-<img src="Documentation/detailed-item-view.PNG" width="250">
+<img src="Documentation/detailed-view.PNG" width="250">
